@@ -1,0 +1,34 @@
+body {
+  font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  background-color: #FBFBFD;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  height: 40px;
+}
+
+li {
+  font-size: 12px;
+  font-weight: normal;
+  letter-spacing: -.01em;
+  margin-left: 22px;
+  margin-right: 22px;
+}
+
+.iconeapple {
+  width: 44px;
+  width: 30px;
+}
+
+.material-icons.md-18 { 
+  font-size: 18px; 
+}
