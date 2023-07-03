@@ -1,18 +1,142 @@
-.imgmacair {
-  width: 100%;
-  height: 100%;
+.macair {
+  background-color: #F5F5F7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.macair-textos {
+  position: absolute;
+  top: 85px;
+  color: #1d1d1f;
+}
+
+.macair-textos h2 {
+  font-size: 56px;
+  margin-bottom: 0px;
+  font-weight: 600;
+  letter-spacing: -.005em;
+}
+
+.macair-textos h3 {
+  font-size: 28px;
+  margin-top: 0px;
+}
+
+.macair-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.macair-links-2 {
+  margin-left: 35px;
+}
+
+.macair-links-1:hover {
+  border-bottom: 2px solid #06c;
+}
+
+.macair-links-2:hover {
+  border-bottom: 2px solid #06c;
+}
+
+.img-macair {
+  width: 3008px;
+  height: 736px;
+  background-size: 3008px 736px;
+  background-repeat: no-repeat;
+  background-image: url(https://www.apple.com/v/home/bb/images/heroes/macbook-air-15/hero_macbook_air_15__x63n8tqcpo2u_largetall.jpg);
 }
 
 a {
   color: #06c;
+  font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
 }
 
-a::after {
-  font-family: "SF Pro Icons";
-    color: inherit;
-    display: inline-block;
-    font-style: normal;
-    font-weight: inherit;
-    font-size: inherit;
-    content: '>';
+.forcollege {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.forcollege-textos {
+  position: absolute;
+  top: 790px;
+}
+
+.forcollege h2 {
+  font-size: 56px;
+  line-height: 1.07143;
+  font-weight: 600;
+  letter-spacing: -.005em;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.forcollege h3 {
+  font-size: 28px;
+  line-height: 1.10722;
+  font-weight: 400;
+  margin-top: 6px;
+  text-align: center;
+}
+
+.forcollege-video {
+  width: 3008px;
+    height: 736px;
+    background-size: 3008px 736px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/home/bb/images/heroes/back-to-school-2023/hero_bts2023_startframe__f787lg06y3ue_largetall.jpg);
+}
+
+/*iPhone 14 Pro*/
+.iphone14 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.iphone14-textos {
+  position: absolute;
+  top: 1585px;
+  color: #f5f5f7;
+}
+
+.iphone14 h2 {
+  font-size: 56px;
+  line-height: 1.07143;
+  font-weight: 600;
+  letter-spacing: -.005em;
+  margin: 0;
+}
+
+.iphone14 h3 {
+  font-size: 28px;
+  line-height: 1.10722;
+  font-weight: 400;
+  letter-spacing: .004em;
+  margin-top: 7px;
+}
+
+#tema-escuro {
+  color: #2997ff
+}
+
+.img-iphone14 {
+  width: 3008px;
+  height: 736px;
+  background-size: 3008px 736px;
+  background-repeat: no-repeat;
+  background-image: url(https://www.apple.com/v/home/bb/images/heroes/iphone-14-pro/hero_iphone14pro_spring__9xo85pm6sbmm_largetall.jpg);
 }

@@ -1,14 +1,17 @@
 body {
   font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
 
 header {
   display: flex;
   justify-content: center;
+  width: 100%;
+  background-color: #FBFBFD;
 }
 
 ul {
-  background-color: #FBFBFD;
   display: flex;
   flex-direction: row;
   text-align: center;
