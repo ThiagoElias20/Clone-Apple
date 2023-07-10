@@ -1,3 +1,7 @@
+body {
+  background-color: red;
+}
+
 .macair {
   background-color: #F5F5F7;
   display: flex;
@@ -5,6 +9,8 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  width: 100%;
+  height: 692px;
 }
 
 .macair-textos {
@@ -44,9 +50,10 @@
 }
 
 .img-macair {
-  width: 3008px;
-  height: 736px;
-  background-size: 3008px 736px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   background-image: url(https://www.apple.com/v/home/bb/images/heroes/macbook-air-15/hero_macbook_air_15__x63n8tqcpo2u_largetall.jpg);
 }
@@ -54,10 +61,10 @@
 a {
   color: #06c;
   font-size: 21px;
-    line-height: 1.381;
-    font-weight: 400;
-    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-decoration: none;
+  line-height: 1.381;
+  font-weight: 400;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
 }
 
 .forcollege {
@@ -91,11 +98,12 @@ a {
 }
 
 .forcollege-video {
-  width: 3008px;
-    height: 736px;
-    background-size: 3008px 736px;
-    background-repeat: no-repeat;
-    background-image: url(https://www.apple.com/v/home/bb/images/heroes/back-to-school-2023/hero_bts2023_startframe__f787lg06y3ue_largetall.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(https://www.apple.com/v/home/bb/images/heroes/back-to-school-2023/hero_bts2023_startframe__f787lg06y3ue_largetall.jpg);
 }
 
 /*iPhone 14 Pro*/
@@ -105,6 +113,8 @@ a {
   align-items: center;
   text-align: center;
   padding-top: 15px;
+  width: 100%;
+  height: 692px;
 }
 
 .iphone14-textos {
@@ -134,9 +144,105 @@ a {
 }
 
 .img-iphone14 {
-  width: 3008px;
-  height: 736px;
-  background-size: 3008px 736px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   background-image: url(https://www.apple.com/v/home/bb/images/heroes/iphone-14-pro/hero_iphone14pro_spring__9xo85pm6sbmm_largetall.jpg);
+}
+
+
+/*Sexteto*/
+
+.sexteto {
+  display: flex;
+  justify-content: center;
+}
+
+.iphone14-wonderfull {
+  width: 850px;
+  height: 580px;
+}
+
+.iphone14-wonderfull-img {
+  width: 100%;
+  height: 100%;
+  background-image: url(https://www.apple.com/v/home/bc/images/promos/iphone-14/promo_iphone14_yellow__fnqrkyt3tz22_large.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.watchS8 {
+  width: 850px;
+  height: 580px;
+}
+
+.watchS8-img {
+  width: 100%;
+  height: 100%;
+  background-image: url(https://www.apple.com/v/home/bc/images/promos/apple-watch-series-8/promo_apple_watch_series_8_spring__d9hfvufh7hyu_large.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.fitness {
+  width: 850px;
+  height: 580px;
+}
+
+.fitness-img {
+  width: 100%;
+  height: 100%;
+  background-image: url(https://www.apple.com/v/home/bc/images/promos/apple-fitness-plus/promo_fitness__e3pj2kkbjoom_large.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.visionpro {
+  width: 850px;
+  height: 580px;
+  margin-left: 12px;
+}
+
+.visionpro-img {
+  width: 100%;
+  height: 100%;
+  background-image: url(https://www.apple.com/v/home/bc/images/promos/apple-vision-pro/promo_apple_vision_pro__f4v4zp0sum2y_large.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.iPadPro {
+  width: 850px;
+  height: 580px;
+  margin-left: 12px;
+}
+
+.iPadPro-img {
+  width: 100%;
+  height: 100%;
+  background-image: url(https://www.apple.com/v/home/bc/images/promos/ipad-pro/promo_ipadpro_refresh__evi9utuixwuq_large.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card {
+  width: 850px;
+  height: 580px;
+  margin-left: 12px;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  background-image: url(https://www.apple.com/v/home/bc/images/promos/apple-card/tile__cauwwcyyn9hy_large.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
