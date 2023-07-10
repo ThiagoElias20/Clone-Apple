@@ -1,0 +1,17 @@
+@media (max-width: 1068px) {
+  .iphone14-wonderfull {
+    width: 516px;
+    height: 490px;
+    background-size: 516px 490px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/home/bc/images/promos/iphone-14/promo_iphone14_yellow__fnqrkyt3tz22_medium.jpg);
+  }
+  
+  .visionpro {
+    width: 516px;
+    height: 490px;
+    background-size: 516px 490px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/home/bc/images/promos/apple-vision-pro/promo_apple_vision_pro__f4v4zp0sum2y_medium.jpg);
+  }
+}
