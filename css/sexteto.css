@@ -1,0 +1,276 @@
+/*Sexteto*/
+
+.sexteto {
+  display: flex;
+  justify-content: center;
+}
+.sexteto figure {
+  margin-top: 15px;
+}
+.iphone14-wonderfull {
+  width: 935px;
+  height: 595px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.iphone14-wonderfull-textos {
+  position: absolute;
+  top: 2222px;
+  text-align: center;
+}
+.iphone14-wonderfull-textos h4 {
+  font-size: 40px;
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: 0em;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial", sans-serif;
+}
+.iphone14-wonderfull-textos h5 {
+  font-size: 21px;
+  line-height: 1.2381;
+  font-weight: 400;
+  letter-spacing: .016em;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial", sans-serif;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.sexteto-produtos a {
+  color: #06c;
+  font-size: 19px;
+  line-height: 1.23536;
+  font-weight: 400;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  text-decoration: none;
+}
+.iphone14-wonderfull-img {
+  width: 100%;
+  height: 100%;
+  background-image: url(https://www.apple.com/v/home/bc/images/promos/iphone-14/promo_iphone14_yellow__fnqrkyt3tz22_large.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.watchS8 {
+  width: 935px;
+  height: 595px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.watchS8-img {
+  width: 100%;
+  height: 100%;
+  background-image: url(https://www.apple.com/v/home/bc/images/promos/apple-watch-series-8/promo_apple_watch_series_8_spring__d9hfvufh7hyu_large.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.watchS8-textos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.watchS8-text {
+  width: 137px;
+  height: 52px;
+  background-size: 137px 52px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(https://www.apple.com/v/home/bc/images/logos/apple-watch-series-8/promo_logo_apple_watch_series_8__ee6riplsucuq_large.png);
+}
+.watchS8-textos h5 {
+  font-size: 21px;
+  line-height: 1.2381;
+  font-weight: 400;
+  letter-spacing: .016em;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  color: #f5f5f7;
+  margin-top: 11px;
+  margin-bottom: 17px;
+}
+.fitness {
+  width: 935px;
+  height: 595px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fitness-img {
+  width: 100%;
+  height: 100%;
+  background-image: url(https://www.apple.com/v/home/bc/images/promos/apple-fitness-plus/promo_fitness__e3pj2kkbjoom_large.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.fitness-textos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.fitness-text {
+  width: 173px;
+  height: 32px;
+  background-size: 173px 32px;
+  background-repeat: no-repeat;
+  background-image: url(https://www.apple.com/v/home/bc/images/logos/apple-fitness-plus/promo_logo_fitness__ghrl68mizmqi_large.png);
+  background-position: center;
+}
+.fitness-textos h5 {
+  font-size: 21px;
+  line-height: 1.2381;
+  font-weight: 400;
+  letter-spacing: .016em;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  margin-top: 10px;
+}
+.fitness-links {
+  margin-top: 11.9px;
+}
+.visionpro {
+  width: 935px;
+  height: 595px;
+  margin-left: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.visionpro-img {
+  height: 100%;
+  width: 100%;
+  background-image: url(https://www.apple.com/v/home/bc/images/promos/apple-vision-pro/promo_apple_vision_pro__f4v4zp0sum2y_large.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.visionpro-textos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.visionpro-textos h5 {
+  font-size: 21px;
+  line-height: 1.2381;
+  font-weight: 400;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.visionpro p {
+  font-size: 17px;
+  line-height: 1.23536;
+  font-weight: 400;
+  letter-spacing: -.022em;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  color: #6e6e73;
+  text-align: center;
+  margin-top: 12px;
+}
+.visionpro-text {
+  width: 196px;
+  height: 41px;
+  background-image: url(https://www.apple.com/v/home/bc/images/logos/apple-vision-pro/promo_logo_apple_vision_pro__90zi46p7dc2y_large.png);
+}
+.iPadPro {
+  width: 98.74%;
+  height: 595px;
+  margin-left: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.iPadPro-img {
+  width: 100%;
+  height: 100%;
+  background-image: url(https://www.apple.com/v/home/bc/images/promos/ipad-pro/promo_ipadpro_refresh__evi9utuixwuq_large.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.iPadPro-textos h4 {
+  font-size: 40px;
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: 0em;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  color: #f5f5f7;
+}
+.iPadPro-textos h5 {
+  display: flex;
+  align-items: center;
+  font-size: 21px;
+  line-height: 1.2381;
+  font-weight: 400;
+  letter-spacing: .016em;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  color: #f5f5f7;
+  margin-bottom: 17px;
+}
+.iPadPro-textos h5 span {
+  display: inline-block;
+  width: 37px;
+  height: 37px;
+  background-size: 37px 37px;
+  background-repeat: no-repeat;
+  background-image: url(https://www.apple.com/v/home/bc/images/logos/ipad-pro/promo_m2_chip__enw2kz91lsuq_large.png);
+  background-position: center;
+}
+.card {
+  width: 935px;
+  height: 595px;
+  margin-left: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-img {
+  width: 100%;
+  height: 100%;
+  background-image: url(https://www.apple.com/v/home/bc/images/promos/apple-card/tile__cauwwcyyn9hy_large.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.card-textos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.card-textos h5 {
+  font-size: 21px;
+  line-height: 1.2381;
+  font-weight: 400;
+  letter-spacing: .016em;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  margin-top: 10px;
+}
+.card-text {
+  width: 108px;
+  height: 33px;
+  background-size: 108px 33px;
+  background-repeat: no-repeat;
+  background-image: url(https://www.apple.com/v/home/bc/images/logos/apple-card/logo__dcojfwkzna2q_large.png);
+  background-position: center;
+}
+.card-links {
+  margin-top: 11.9px;
+}
