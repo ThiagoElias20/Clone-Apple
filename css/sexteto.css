@@ -3,6 +3,7 @@
 .sexteto {
   display: flex;
   justify-content: center;
+  margin-bottom: 15px;
 }
 .sexteto figure {
   margin-top: 15px;

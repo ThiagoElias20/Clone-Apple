@@ -19,7 +19,7 @@ ul {
   height: 40px;
 }
 
-li {
+.lista-nav li {
   font-size: 12px;
   font-weight: normal;
   letter-spacing: -.01em;
